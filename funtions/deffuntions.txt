@@ -1,0 +1,12 @@
+A function is a segment of a program that performs a specific task. You can have many functions in your program or only a single one
+
+Define a function
+
+These are the key parts needed to define a function:
+>>>The function needs a "name", so you can call it later.
+>>>The function can also require some "inputs", or information that needs to be provided when the function is called. The function uses these inputs to accomplish its purpose. Requiring inputs are optional, and some functions require no inputs.
+>>>The function also has a "body"which contains the instructions to perform the task.
+
+The function definition starts with the word fun.
+Then the name of the function is main.
+There are no inputs to the function, so the parentheses are empty.
