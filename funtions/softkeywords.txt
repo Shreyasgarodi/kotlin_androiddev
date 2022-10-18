@@ -1,0 +1,49 @@
+The following tokens act as keywords in the context in which they are applicable, and they can be used as identifiers in other contexts:
+
+by
+
+delegates the implementation of an interface to another object.
+
+delegates the implementation of the accessors for a property to another object.
+
+catch begins a block that handles a specific exception type.
+
+constructor declares a primary or secondary constructor.
+
+delegate is used as an annotation use-site target.
+
+dynamic references a dynamic type in Kotlin/JS code.
+
+field is used as an annotation use-site target.
+
+file is used as an annotation use-site target.
+
+finally begins a block that is always executed when a try block exits.
+
+get
+
+declares the getter of a property.
+
+is used as an annotation use-site target.
+
+import imports a declaration from another package into the current file.
+
+init begins an initializer block.
+
+param is used as an annotation use-site target.
+
+property is used as an annotation use-site target.
+
+receiveris used as an annotation use-site target.
+
+set
+
+declares the setter of a property.
+
+is used as an annotation use-site target.
+
+setparam is used as an annotation use-site target.
+
+value with the class keyword declares an inline class.
+
+where specifies the constraints for a generic type parameter.
