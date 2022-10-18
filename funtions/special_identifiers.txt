@@ -1,0 +1,5 @@
+The following identifiers are defined by the compiler in specific contexts, and they can be used as regular identifiers in other contexts:
+
+field is used inside a property accessor to refer to the backing field of the property.
+
+it is used inside a lambda to refer to its parameter implicitly.
