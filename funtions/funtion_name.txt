@@ -1,0 +1,1 @@
+Functions have names so they can be distinguished from each other, similar to how people have names to identify themselves. The name of the function is found after the fun keyword.
