@@ -1,0 +1,3 @@
+To indicate that you're about to define a function in Kotlin, use the special word fun (short for function) on a new line. You must type fun exactly as shown in all lowercase letters. You can't use func, function, or some alternative spelling because the Kotlin compiler won't recognize what you mean.
+
+These special words are called keywords in Kotlin and are reserved for a specific purpose, such as creating a new function in Kotlin.
