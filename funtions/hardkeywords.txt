@@ -1,0 +1,96 @@
+The following tokens are always interpreted as keywords and cannot be used as identifiers:
+_________________________________________________________________________________________________________
+as
+
+>>is used for type casts.
+
+>>specifies an alias for an import
+__________________________________________________________________________________________________________
+as? >>is used for safe type casts.
+________________________________________________________________________________________________________
+break>> terminates the execution of a loop.
+____________________________________________________________________________________________________________
+class>> declares a class.
+_________________________________________________________________________________________________________
+continue>> proceeds to the next step of the nearest enclosing loop.
+____________________________________________________________________________________________________________
+do >>begins a do/while loop (a loop with a postcondition).
+____________________________________________________________________________________________________________
+else >>defines the branch of an if expression that is executed when the condition is false.
+___________________________________________________________________________________________________________
+false>> specifies the 'false' value of the Boolean type.
+___________________________________________________________________________________________________________
+for >>begins a for loop.
+___________________________________________________________________________________________________________
+fun>> declares a function.
+_________________________________________________________________________________________________________
+if >>begins an if expression.
+_________________________________________________________________________________________________________
+in>>
+
+specifies the object being iterated in a for loop.
+
+is used as an infix operator to check that a value belongs to a range, a collection, or another entity that defines a 'contains' method.
+
+is used in when expressions for the same purpose.
+
+marks a type parameter as contravariant.
+_________________________________________________________________________________________________________
+!in>>
+
+is used as an operator to check that a value does NOT belong to a range, a collection, or another entity that defines a 'contains' method.
+
+is used in when expressions for the same purpose.
+
+interface declares an interface.
+_________________________________________________________________________________________________________
+is>>
+
+checks that a value has a certain type.
+
+is used in when expressions for the same purpose.
+_________________________________________________________________________________________________________
+!is
+
+    checks that a value does NOT have a certain type.
+
+    is used in when expressions for the same purpose.
+
+null >>is a constant representing an object reference that doesn't point to any object.
+_________________________________________________________________________________________________________
+object>> declares a class and its instance at the same time.
+_________________________________________________________________________________________________________
+package>> specifies the package for the current file.
+_________________________________________________________________________________________________________
+return>> returns from the nearest enclosing function or anonymous function.
+_________________________________________________________________________________________________________
+super>>
+
+refers to the superclass implementation of a method or property.
+
+calls the superclass constructor from a secondary constructor.
+_________________________________________________________________________________________________________
+this>>
+
+refers to the current receiver.
+
+calls another constructor of the same class from a secondary constructor.
+_________________________________________________________________________________________________________
+throw>> throws an exception.
+_________________________________________________________________________________________________________
+true>> specifies the 'true' value of the Boolean type.
+_________________________________________________________________________________________________________
+try>> begins an exception-handling block.
+_________________________________________________________________________________________________________
+typealias>> declares a type alias.
+_________________________________________________________________________________________________________
+typeof>> is reserved for future use.
+_________________________________________________________________________________________________________
+val>> declares a read-only property or local variable.
+_________________________________________________________________________________________________________
+var>> declares a mutable property or local variable.
+_________________________________________________________________________________________________________
+when>> begins a when expression (executes one of the given branches).
+_________________________________________________________________________________________________________
+while>>begins a while loop (a loop with a precondition).
+_________________________________________________________________________________________________________
