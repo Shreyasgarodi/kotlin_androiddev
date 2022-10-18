@@ -1,0 +1,59 @@
+The following tokens act as keywords in modifier lists of declarations, and they can be used as identifiers in other contexts:
+
+abstract marks a class or member as abstract.
+
+actual denotes a platform-specific implementation in multiplatform projects.
+
+annotation declares an annotation class.
+
+companion declares a companion object.
+
+const marks a property as a compile-time constant.
+
+crossinline forbids non-local returns in a lambda passed to an inline function.
+
+data instructs the compiler to generate canonical members for a class.
+
+enum declares an enumeration.
+
+expect marks a declaration as platform-specific, expecting an implementation in platform modules.
+
+external marks a declaration as implemented outside of Kotlin (accessible through JNI or in JavaScript).
+
+final forbids overriding a member.
+
+infix allows calling a function using infix notation.
+
+inline tells the compiler to inline a function and the lambdas passed to it at the call site.
+
+inner allows referring to an outer class instance from a nested class.
+
+internal marks a declaration as visible in the current module.
+
+lateinit allows initializing a non-null property outside of a constructor.
+
+noinline turns off inlining of a lambda passed to an inline function.
+
+open allows subclassing a class or overriding a member.
+
+operator marks a function as overloading an operator or implementing a convention.
+
+out marks a type parameter as covariant.
+
+override marks a member as an override of a superclass member.
+
+private marks a declaration as visible in the current class or file.
+
+protected marks a declaration as visible in the current class and its subclasses.
+
+public marks a declaration as visible anywhere.
+
+reified marks a type parameter of an inline function as accessible at runtime.
+
+sealed declares a sealed class (a class with restricted subclassing).
+
+suspend marks a function or lambda as suspending (usable as a coroutine).
+
+tailrec marks a function as tail-recursive (allowing the compiler to replace recursion with iteration).
+
+vararg allows passing a variable number of arguments for a parameter.
