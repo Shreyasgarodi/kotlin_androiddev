@@ -1,0 +1,8 @@
+Here are some of the relevant style guide recommendations for what you've learned in Kotlin so far:
+
+Function names should be in camel case and should be verbs or verb phrases.
+Each statement should be on its own line.
+The opening curly brace should appear at the end of the line where the function begins.
+There should be a space before the opening curly brace.
+The function body should be indented in by 4 spaces. Do not use a tab character to indent your code, type in 4 spaces.
+The closing curly brace is on its own line after the last line of code in the function body. The closing brace should line up with the fun keyword at the beginning of the function.
