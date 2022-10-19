@@ -1,0 +1,9 @@
+This program creates a variable called count with an initial value of 2 and uses it by printing out the value of the count variable to the output.
+Don't worry if you don't understand all aspects of the code syntax yet.
+
+fun main() {
+    val count: Int = 2
+    println(count)
+}
+
+Run the program and the output should be:2
