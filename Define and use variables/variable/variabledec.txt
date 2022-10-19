@@ -1,0 +1,11 @@
+
+syntax:
+var name :datatype=initial valve
+
+example:
+val count: Int = 2
+
+In the context of the count variable example, you can see that the variable declaration starts with the word val. 
+The name of the variable is count.
+The data type is Int, and the initial value is 2.
+
