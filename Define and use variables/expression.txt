@@ -1,0 +1,8 @@
+An expression is a small unit of code that has a value. 
+An expression can be made up of variables, function calls, and more.
+
+In the below case, the expression is made up of one variable: the count variable. The value of the expression is 2.
+
+expression:count
+value:2
+
