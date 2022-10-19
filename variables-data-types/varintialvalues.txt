@@ -1,0 +1,12 @@
+The variable value is the actual data that's stored in the variable.
+
+syntax:
+var name:datatype=values
+
+ex:val count: Int = 2
+
+For the count variable example, the number 2 is the initial value of the variable.
+
+"the count variable is initialized to 2." This means that 2 is the first value stored in the variable when the variable is declared.
+
+The initial value will be different depending on the data type declared for the variable.
