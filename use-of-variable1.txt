@@ -1,0 +1,15 @@
+Below is the original program you ran in the Kotlin Playground. So far you learned that the second line of code creates a new integer variable called count with a value of 2.
+
+
+fun main() {
+    val count: Int = 2
+    println(count)
+}
+
+Now look at the third line of code. You are printing the count variable to the output:println(count)
+
+Notice there are no quotation marks around the word count. It is a variable name, not a string literal. (You would find quotation marks around the word if it was a string literal.) When you run the program, the Kotlin compiler evaluates the expression inside the parentheses, which is count, for the println() instruction. Since the expression evaluates to 2, then the println() method is called with 2 as the input: println(2).
+
+Hence the output of the program is:2
+
+The number by itself in the output is not very useful. It would be more helpful to have a more detailed message printed in the output to explain what the 2 represents.
