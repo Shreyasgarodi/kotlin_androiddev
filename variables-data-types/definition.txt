@@ -1,0 +1,3 @@
+In computer programming, there's the concept of a variable, which is a container for a single piece of data.
+You can envision it as a box that contains a value. The box has a label, which is the name of the variable.
+By referring to the box by its name, you have access to the value it holds.
