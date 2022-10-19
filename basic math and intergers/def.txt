@@ -1,0 +1,6 @@
+What is the difference between an Int variable with value 2 and a String variable with value "2"?
+When they both get printed to the output, they look the same.
+
+The advantage to storing whole number integers as an Int (as opposed to a String) is that you can perform math operations with Int variables, such as addition, subtraction, division, and multiplication (see other operators). 
+For example, two integer variables can be added together to get their sum.
+There are certainly cases where it's reasonable to have integers stored as Strings, but the purpose of this section is to show you what you can do with Int variables.
