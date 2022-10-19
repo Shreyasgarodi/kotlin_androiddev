@@ -1,0 +1,5 @@
+In the variable declaration, the equal sign symbol (=) follows the data type.
+The equal sign symbol is called the assignment operator. The assignment operator assigns a value to the variable.
+In other words, the value on the right-hand side of the equal sign gets stored in the variable on the left-hand side of the equal sign.
+
+ex:val count: Int = 2
