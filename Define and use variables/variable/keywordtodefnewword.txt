@@ -1,0 +1,4 @@
+To define a new variable,
+start with the Kotlin keyword val (which stands for value). 
+Then the Kotlin compiler knows that a variable declaration is in this statement.
+
