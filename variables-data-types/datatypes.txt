@@ -1,0 +1,47 @@
+When you decide what aspects of your app can be variable, it's important to specify what type of data can be stored in those variables.
+In Kotlin, there are some common basic data types. 
+For each data type, there's a description of what kind of data it can hold and example values.
+___________________________________________________________________________________________________________________________________________________________________
+Kotlin data type :String
+
+What kind of data it can contain :Text
+
+Example literal values:
+"Add contact"
+"Search"
+"Sign in"
+___________________________________________________________________________________________________________________________________________________________________
+Kotlin data type :Int
+
+Example literal values:Whole integer number
+
+What kind of data it can contain:
+32
+1293490
+-59281
+___________________________________________________________________________________________________________________________________________________________________
+Kotlin data type  :Double
+
+Example literal values:Decimal number
+
+What kind of data it can contain:
+2.0
+501.0292
+-31723.99999
+___________________________________________________________________________________________________________________________________________________________________
+Kotlin data type :Float
+
+Example literal values:Decimal number (that is less precise than a Double). Has an f or F at the end of the number.
+
+What kind of data it can contain:
+5.0f
+-1630.209f
+1.2940278F
+___________________________________________________________________________________________________________________________________________________________________
+Kotlin data type :Boolean
+
+Example literal values:true or false. Use this data type when there are only two possible values. Note that true and false are keywords in Kotlin.
+
+What kind of data it can contain:
+true
+false
