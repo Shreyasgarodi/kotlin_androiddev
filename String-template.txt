@@ -1,0 +1,33 @@
+Follow the steps below so that the program outputs a more helpful message.
+
+step 1:Update your program in the Kotlin Playground with the below code. 
+For the println() call, pass in a string literal that contains the count variable name. 
+Remember to surround the text with quotation marks. Note that this will not give you the results you expect. You'll fix the issue in a later step.
+
+
+fun main() {
+    val count: Int = 2
+    println("You have count unread messages.")
+}
+step2:Run the program and the output should display:You have count unread messages.
+
+That sentence doesn't make sense! You want the value of the count variable to be displayed in the message, not the variable name.
+
+step 3:To fix your program, add a dollar sign symbol $ before the count variable: "You have $count unread messages." 
+This is a string template because it contains a template expression, 
+which is $count in this case. A template expression is an expression that gets evaluated to a value,
+which then gets substituted into the string. In this case, the template expression $count evaluates to 2, 
+and the 2 gets substituted into the string where the expression was located.
+
+fun main() {
+    val count: Int = 2
+    println("You have $count unread messages.")
+}
+
+step 4:
+When you run the program, the output matches the desired goal:You have 2 unread messages.
+
+
+That sentence makes much more sense to the user!
+
+
