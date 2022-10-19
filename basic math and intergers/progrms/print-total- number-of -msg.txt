@@ -1,0 +1,21 @@
+fun main() {
+    val unreadCount = 5
+    val readCount = 100
+    println("You have ${unreadCount + readCount} total messages in your inbox.")
+}
+
+Run the program and it should display the total number of messages in the inbox:
+output:You have 105 total messages in your inbox.
+
+For a string template, you learned that you can put the $ symbol before a single variable name. 
+However, if you have a more complex expression, 
+you must enclose the expression in curly braces with the $ symbol before the curly braces: ${unreadCount + readCount}. 
+The expression within the curly braces, unreadCount + readCount, evaluates to 105. Then the value 105 is substituted within the string literal.
+
+expression=Unreadcount+readcount value:105
+
+NOTE: If you forget the curly braces around the template expression, you will get unexpected results
+You can test that out in the Kotlin Playground by changing the println() statement to println("You have $unreadCount + readCount total messages in your inbox.") 
+and observing the output.
+
+To explore this topic further, create variables with different names and different initial values, and use template expressions to print messages to the output.
