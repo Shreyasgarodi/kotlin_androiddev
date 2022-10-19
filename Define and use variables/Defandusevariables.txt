@@ -1,0 +1,12 @@
+You must define a variable first in your code before you can use the variable.
+When you define a variable, you assign a name to uniquely identify it. You also decide what type of data it can hold by specifying the data type.
+Lastly, you can provide an initial value that will be stored in the variable, but this is optional.
+
+Once you define a variable, you can use that variable in your program.
+To use a variable, type out the variable name in your code, 
+which tells the Kotlin compiler that you want to use the variable's value at that point in the code.
+
+For example, define a variable for the number of unread messages in a user's inbox.
+The variable can have the name count. 
+Store a value such as the number 2 inside the variable, representing 2 unread messages in the user's inbox. 
+(You can pick a different number to store in the variable, but for the purpose of this example, use the number 2.)
