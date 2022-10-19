@@ -1,0 +1,32 @@
+Here's a tip that allows you to write less code when declaring variables.
+
+Type inference is when the Kotlin compiler can infer (or determine) what data type a variable should be, without the type being explicitly written in the code. That means you can omit the data type in a variable declaration, if you provide an initial value for the variable. The Kotlin compiler looks at the data type of the initial value, and assumes that you want the variable to hold data of that type.
+
+Below is the syntax for a variable declaration that uses type inference:
+
+var name=intial value
+
+Returning to the count example, the program initially contained this line of code:val count: Int = 2
+
+
+However, this line of code can also be written as follows. 
+Notice that the colon symbol (:) and Int data type are omitted. 
+The updated syntax has fewer words to type, and it achieves the same outcome of creating an Int variable called count with a value of 2.
+
+val count = 2
+
+The Kotlin compiler knows that you want to store 2 (a whole number integer) into the variable count,
+so it can infer that the count variable is of type Int. Convenient, right? This is one example of how writing Kotlin code is more concise!
+
+
+Note: If you don't provide an initial value when you declare a variable, you must specify the type.
+
+In this line of code, no initial value is provided, so you must specify the data type:
+
+val count: Int
+
+In this line of code, an assigned value is provided, so you can omit the data type:
+
+val count = 2
+
+Even though this example only discusses a variable of type Int, the concept of type inference applies to all data types in Kotlin.
