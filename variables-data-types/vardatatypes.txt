@@ -1,0 +1,8 @@
+After the variable name, you add a colon, a space, and then the data type of the variable. 
+As mentioned earlier, String, Int, Double, Float, and Boolean are some of the basic Kotlin data types.
+
+
+var name:datatypes=values
+ex:
+For the count variable example, Int is the data type of the variable.
+val count: Int = 2
