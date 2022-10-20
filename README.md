@@ -14,5 +14,6 @@ To practice the basics of the ```Kotlin language```, you will use an interactive
 #### Note:
 > * You can't build Android apps within the Kotlin Playground. In later pathways, you will install and use a tool called Android Studio to write and edit your Android app code.
 
+> * A source code written in Kotlin is saved with ```. kt``` extension which is commonly known as Kotlin file extension.
 
   <img src="https://media.tenor.com/mObOMMDy_lQAAAAi/android-google.gif" width="1000"  height="400"/>
