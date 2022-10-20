@@ -2,6 +2,8 @@
 # Kotlin_androiddev
 > Kotlin for android app development !!!
 
+The ```Kotlin``` is a general-purpose cross-platform programming language developed by JetBrains to be fully interoperable with Java.
+
 Get started!!!
 You use a tool called a ```code editor``` to write and edit your code. It's similar to a text editor in which you can write and edit text, but a code editor also provides functionality to help you write code more accurately. 
 
