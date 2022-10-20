@@ -1,0 +1,1 @@
+When you need a variable that can store text, use a String variable. Remember to use quotation marks around String literal values, such as "Hello Kotlin", whereas the Int and Double literal values do not have quotes around them.
